@@ -26,14 +26,38 @@ namespace Inheritance
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
              *  
+             * 
              * Creatively display the class member values 
              */
+
+            Bird chicken = new Bird();
+            chicken.Name = "Nuggets";
+            chicken.CanFly = false;
+            chicken.Age = 4;
+            chicken.Feathers = true;
+
+            chicken.PrintBird();
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+
+
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+            Reptile crocodile = new Reptile();
+            crocodile.BackBones = true;
+            crocodile.ColdBlooded = true;
+            crocodile.Age = 70;
+            crocodile.CanSwim = true;
+
+            crocodile.PrintCrocodile();
         }
     }
 }
